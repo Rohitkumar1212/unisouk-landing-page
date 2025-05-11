@@ -4,11 +4,7 @@ import Partners from '@/components/LandingPage/Partners/Partners'
 
 const Hero = () => {
   return (
-    <section className="text-center px-4 py-20 bg-white">
-      {/* <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
-        <span className='mb-4'>Start Crafting Your</span> <br />
-        <span className="text-indigo-600">Next Great Idea</span>
-      </h1> */}
+    <section className="text-center px-4 pt-20 bg-white">
       <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
         <span className="mb-2 block">Start Crafting Your</span>
         <span className="text-indigo-600 block">Next Great Idea</span>
