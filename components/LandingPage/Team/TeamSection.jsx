@@ -63,7 +63,7 @@ const team = [
 
 export default function TeamSection() {
   return (
-    <section className="relative py-20 bg-white overflow-hidden">
+    <section className="relative lg:py-20 bg-white overflow-hidden">
       {/* Top-right decorative blob */}
       <div className="relative z-10 max-w-7xl mx-auto px-4">
         <div className="text-left mb-12 relative">
