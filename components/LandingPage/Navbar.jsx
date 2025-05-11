@@ -7,8 +7,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full max-w-7xl lg:w-[90%] m-auto sticky top-0 z-50 border-b-1 backdrop-blur-md bg-white/30 border border-white/20">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+    <header className="w-full max-w-[1600px] lg:w-[90%] m-auto sticky top-0 z-50 border-b-1 backdrop-blur-md bg-white/30 border border-white/20">
+      <nav className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold tracking-tight text-gray-900">
           nullBrains<span className="text-purple-600">.</span>
