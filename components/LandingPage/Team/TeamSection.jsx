@@ -82,7 +82,7 @@ export default function TeamSection() {
           {team.map((member, index) => (
             <motion.div
               key={index}
-              className={`relative p-6 pt-10 rounded-tr-[60px] text-center`}
+              className={`relative lg:p-6 pt-10 rounded-tr-[60px] text-center`}
               initial={{ opacity: 0, scale: 0.9 }} // Initial state
               whileInView={{ opacity: 1, scale: 1 }} // Trigger when in view
               viewport={{ once: false, amount: 0.2 }} // Trigger when 20% of the item is in the viewport
