@@ -16,7 +16,7 @@ const AutomatedTasksData = [
 
 export default function EfficiencyHighlights() {
   return (
-    <section className="w-full lg:w-[90%] m-auto px-4 py-12 bg-white">
+    <section className="w-full lg:w-[90%] m-auto px-4 py-12 bg-white overflow-x-hidden">
       <div className="max-w-6xl mx-auto flex flex-col gap-12">
         
         {/* First Row: Boost Productivity */}
@@ -67,9 +67,13 @@ export default function EfficiencyHighlights() {
         {/* Second Row: Automated Tasks */}
         <motion.div
           className="flex flex-col md:flex-row-reverse items-center justify-between max-w-6xl mx-auto px-4"
-          initial={{ opacity: 0, x: -100 }}
+          // initial={{ opacity: 0, x: -100 }}
+          // whileInView={{ opacity: 1, x: 0 }}
+          // viewport={{ once: false }}
+          // transition={{ duration: 0.6 }}
+          initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: false }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6 }}
         >
           {/* Image Section */}
